@@ -32,7 +32,7 @@ Brain(s) コンテスト by FUJIFILM AI Academy Brain(s) \
 翻訳に使われるtransformerを実装してみました．
 
 StyleGan2での全身画像生成
-[生成画像](https://github.com/syuuuuukun/portfolio/blob/master/imgs/pink.png)
+![生成画像](https://github.com/syuuuuukun/portfolio/blob/master/imgs/pink.png)
 
 
 
