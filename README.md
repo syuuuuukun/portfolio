@@ -10,3 +10,4 @@
 [言語処理学会論文](https://www.anlp.jp/proceedings/annual_meeting/2019/pdf_dir/B3-1.pdf)
 
 ![絵文字マップ](https://github.com/syuuuuukun/portfolio/blob/master/imgs/emo_tsne_876words.png)
+ls
