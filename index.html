@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-	<title>Portfolio</title>
+	<title>Dashboard | Klorofil - Free Bootstrap Dashboard Template</title>
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<!-- VENDOR CSS -->
@@ -10,29 +10,21 @@
 	<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/vendor/linearicons/style.css">
 	<link rel="stylesheet" href="assets/vendor/chartist/css/chartist-custom.css">
-
+	<!-- MAIN CSS -->
 	<link rel="stylesheet" href="assets/css/main.css">
-	
+	<!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
+	<link rel="stylesheet" href="assets/css/demo.css">
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+	<!-- ICONS -->
 	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
 </head>
-<body>
+<body class>
 
 	<!-- WRAPPER -->
 	<div id="wrapper">
-		<!-- NAVBAR -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="brand">
-				<a href="index.html"><img src="assets/img/logo-dark.png" alt="Klorofil Logo" class="img-responsive logo"></a>
-			</div>
-			<div class="container-fluid">
-				<div class="navbar-btn">
-					<button type="button" class="btn-toggle-fullwidth"><i class="lnr lnr-arrow-left-circle"></i></button>
-				</div> 
 
-			</div>
-		</nav>
-		<!-- END NAVBAR -->
-		<!-- LEFT SIDEBAR -->
 		<div id="sidebar-nav" class="sidebar">
 			<div class="sidebar-scroll">
 				<nav>
@@ -42,7 +34,7 @@
 							<a href="#subPages" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>プロフィール</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
 							<div id="subPages" class="collapse ">
 								<ul class="nav">
-									<li><a href="page-profile.html" class="">自己紹介</a></li>
+									<li><a href="index.html" class="">自己紹介</a></li>
 									<li><a href="research_theme.html" class="">研究テーマ</a></li>
 									<li><a href="intern.html" class="">インターンシップ</a></li>
 									<li><a href="competition.html" class="">データサイエンティストコンペ</a></li>
@@ -53,30 +45,84 @@
 				</nav>
 			</div>
 		</div>
+		<!-- NAVBAR -->
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="brand">
+				<a href="index.html"><img src="assets/img/logo-dark.png" alt="Klorofil Logo" class="img-responsive logo"></a>
+			</div>
+			<div class="container-fluid">
+				<div class="navbar-btn">
+					<button type="button" class="btn-toggle-fullwidth"><i class="lnr lnr-arrow-left-circle"></i></button>
+				</div>
+			</div>
+		</nav>
+	
+		<div class="main">
+			<!-- MAIN CONTENT -->
+			<div class="main-content">
+				<div class="container-fluid">
+					<div class="panel panel-headline">
+
+						<div class="panel-heading">
+							<!-- <h3 class="panel-title">自己紹介</h3> -->
+						</div>
+						<div class="panel-body">
+							<div class="row">
+								<div class="col-md-3">
+									<div class="metric">										
+										<p>
+											<span class="number">自己紹介</span>
+										</p>
+									</div>
+								</div>
+							<p>氏名 : 町田秀輔 <br>
+								学校 : 東京工科大学　大学院　コンピュータサイエンス専攻<br>
+								学年 : 修士1年<br>
+								研究室 : 柴田研究室<br>
+							</p>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="metric">										
+										<p>
+											<span class="number">研究</span>
+										</p>
+									</div>
+								</div>
+							<p>研究分野 : 自然言語処理 <br>
+								テーマ : 絵文字表現を用いた感情分析<br>
+								Github : <a href="https://github.com/syuuuuukun/proX_output" target=”_blank”>実験コード1</a> 
+								<a href="" target=”_blank”>実験コード2</a>
+							</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END MAIN -->
+		<div class="clearfix"></div>
+		<footer>
+			<div class="container-fluid">
+				<p class="copyright">&copy; 2017 <a href="https://www.themeineed.com" target="_blank">Theme I Need</a>. All Rights Reserved.</p>
+			</div>
+		</footer>
 	</div>
-	<!-- </div> -->
-	<!-- 1block -->
-	<h1>自己紹介</h1>
-	<p>氏名 : 町田秀輔 <br>
-	学校 : 東京工科大学　大学院　コンピュータサイエンス専攻<br>
-	学年 : 修士1年<br>
-	研究室 : 柴田研究室<br>
-	</p>
-	<!-- 1block -->
 
 	<!-- 2block -->
-	<h1>研究テーマ</h1>
+	<!-- <h1>研究テーマ</h1>
 	<p>自然言語処理 感情分析<br>
 	研究テーマ：絵文字表現を用いた感情分析<br>
 
 	<h3>発表歴</h3>
 	言語処理学会 第25回年次大会<br>
 	タイトル：絵文字の埋め込み表現を用いたラベル埋め込み注意機構モデル等による文の感情推定<br>
-	<a href="https://www.anlp.jp/proceedings/annual_meeting/2019/pdf_dir/B3-1.pdf" target=”_blank”>論文URL</a><br></p>
+	<a href="https://www.anlp.jp/proceedings/annual_meeting/2019/pdf_dir/B3-1.pdf" target=”_blank”>論文URL</a><br></p> -->
 	<!-- 2block -->
 
 	<!-- 3block -->
-	<h1>外部活動</h1>
+	<!-- <h1>外部活動</h1>
 	<h2>インターンシップ</h2>
 	<h3>株式会社Insight Tech</h3>
 	<p>2019年度の夏季インターンシップ<br>
@@ -84,16 +130,16 @@
 	期間 : 5週間<br>
 	開発人数 : 1人<br>
 	<a href="http://lab.insight-tech.co.jp/articles/154/" target=”_blank”>作成したいただいた記事</a><br>
-	</p>
+	</p> -->
 
-	<h3>株式会社オプティム</h3><p>2020年度の夏季インターンシップ<br>
+	<!-- <h3>株式会社オプティム</h3><p>2020年度の夏季インターンシップ<br>
 	業務内容 : 画像処理(オープンにしてはいけない気がしたので抽象的ですが、画像データに触れました)<br>
 	期間 : 2週間<br>
 	開発人数 : 1人<br>
-	</p>
+	</p> -->
 	<!-- 3block -->
 	
-	<h2>データサイエンティストコンペ</h2>
+	<!-- <h2>データサイエンティストコンペ</h2>
 	<h3>SIGNATE</h3>
 	<a href="https://signate.jp/users/49332/history" target=”_blank”>SIGNATEプロフィール</a><br>
 	<p>SIGNATE Student cup 2020[予測部門] 3位入賞<br>
@@ -116,6 +162,12 @@
 	<p>【全学年・既卒対応】バンダイナムコ・データサイエンス・チャレンジ　TOP2%(9/430)</p>
 
 
+	<div class="clearfix"></div>
+	<footer>
+		<div class="container-fluid">
+			<p class="copyright">&copy; 2017 <a href="https://www.themeineed.com" target="_blank">Theme I Need</a>. All Rights Reserved.</p>
+		</div>
+	</footer> -->
 
 	<script src="assets/vendor/jquery/jquery.min.js"></script>
 	<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
